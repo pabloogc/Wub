@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WubProgressBar">
+        <attr name="waves" format="integer"/>
+        <attr name="waveLength" format="float"/>
+        <attr name="samples" format="integer"/>
+        <attr name="growth" format="dimension"/>
+        <attr name="rotationPeriod" format="integer"/>
+        <attr name="wavePeriod" format="integer"/>
+        <attr name="lineWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
