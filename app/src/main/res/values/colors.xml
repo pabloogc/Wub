@@ -1,6 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primary_color">@color/white</color>
+    <color name="primary_color_dark">@color/gray9</color>
+    <color name="accent_color">@color/black</color>
+    <color name="dark_accent_color">#561961</color>
+    <color name="text_color_primary">@color/black</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_50">#7FFFFFFF</color>
+    <color name="white_00">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#7F000000</color>
+    <color name="gray3">#333333</color>
+    <color name="gray7">#777777</color>
+    <color name="gray9">#999999</color>
+    <color name="grayC">#CCCCCC</color>
+    <color name="intensity_slider_grey">#C5D3D6</color>
+    <color name="base_background">#eceff1</color>
+    <color name="lamp_off_color">#FF263238</color>
+    <color name="lamp_off_color_light">#FF4D7988</color>
+    <color name="dark_actionbar_background_color">#455a64</color>
+    <color name="ripple_color">#5a000000</color>
+
+    <color name="splash_color_bg">#561961</color>
+
+    <!-- Wizard -->
+
+    <color name="wizard_button_pressed">#96ffffff</color>
+    <color name="wizard_button_primary">#77ffffff</color>
+    <color name="wizard_button_primary_light">#33ffffff</color>
+
+    <color name="wizard_start_color">@color/bq_orange</color>
+    <color name="wizard_blink_color">@color/bq_red</color>
+    <color name="wizard_discover_color">@color/bq_pink</color>
+    <color name="wizard_master_color">@color/bq_dark_pink</color>
+    <color name="wizard_master_color_dialog">@color/bq_dark_pink_transparent</color>
+    <color name="wizard_connect_color">@color/bq_purple</color>
+    <color name="wizard_connect_color_dialog">@color/bq_purple_transparent</color>
+
+    <!-- BQ colors -->
+
+    <color name="bq_purple">#702076</color>
+    <color name="bq_dark_pink">#B00060</color>
+    <color name="bq_pink">#D60056</color>
+    <color name="bq_red">#EB0028</color>
+    <color name="bq_orange">#FF5000</color>
+
+    <color name="bq_purple_transparent">#DF702076</color>
+    <color name="bq_dark_pink_transparent">#DFB00060</color>
+    <color name="bq_pink_transparent">#DFD60056</color>
+    <color name="bq_red_transparent">#DFEB0028</color>
+    <color name="bq_orange_transparent">#DFFF5000</color>
+
+    <!-- Settings -->
+
+    <color name="settings_color_accent">#B00060</color>
+    <color name="settings_primary_color">#FF162D34</color>
+    <color name="settings_primary_color_dark">#FF0D2328</color>
+    <color name="settings_button_pressed">#80455a64</color>
+    <color name="settings_button_primary">#546E7A</color>
+    <color name="settings_text_icon_button_color">#B00060</color>
+    <color name="settings_tick_green">#6ea96e</color>
+
+    <!-- Lamp edition -->
+    <color name="lamp_list_add_lamp_item_background_color">#4E7784</color>
+    <color name="lamp_list_add_lamp_item_icons_color">@color/white</color>
+    <color name="lamp_list_add_lamp_item_text_color">@color/white</color>
+    <color name="lamp_edit_dialog_default_color">#000000</color>
+    <color name="lamp_edit_dialog_cancel_color">#FF0000</color>
+    <color name="lamp_edit_dialog_confirm_color">#00B5E6</color>
+    <color name="lamp_edit_unavailable_lamp_background_color">#CDD9DD</color>
+    <color name="lamp_edit_unavailable_lamp_icons_color">#4E7783</color>
+    <color name="lamp_edit_unavailable_lamp_text_color">#AAB8BD</color>
+
+    <array name="colors">
+        <item>#275598</item>
+        <item>#29589A</item>
+        <item>#2F63A2</item>
+        <item>#3D6EA9</item>
+        <item>#5B82B6</item>
+        <item>#7396C3</item>
+        <item>#9AB6D8</item>
+        <item>#B5CFE6</item>
+        <item>#CCE3F2</item>
+        <item>#D7EAF6</item>
+        <item>#166BA7</item>
+        <item>#1574AE</item>
+        <item>#2481B7</item>
+        <item>#4390C0</item>
+        <item>#5F9ECA</item>
+        <item>#8EB8DA</item>
+        <item>#A7C8E2</item>
+        <item>#C1D8EB</item>
+        <item>#D0E5F3</item>
+        <item>#D5E7F4</item>
+        <item>#1A8FC5</item>
+        <item>#1C97CA</item>
+        <item>#219FCF</item>
+        <item>#33A3CE</item>
+        <item>#5CADCF</item>
+        <item>#77B8D6</item>
+        <item>#9AC9E0</item>
+        <item>#B5D7E9</item>
+        <item>#C7E1EC</item>
+        <item>#D0E6ED</item>
+        <item>#1D9EBF</item>
+        <item>#1F9FBF</item>
+        <item>#2CA0BD</item>
+        <item>#3BA3BE</item>
+        <item>#53A9C2</item>
+        <item>#6AB1C7</item>
+        <item>#8FC2D2</item>
+        <item>#A1CCD8</item>
+        <item>#BEDBE1</item>
+        <item>#C2DDE5</item>
+        <item>#1C9BA0</item>
+        <item>#209BA1</item>
+        <item>#2C9DA3</item>
+        <item>#3FA1A7</item>
+        <item>#5DAAB1</item>
+        <item>#7EB8BC</item>
+        <item>#A0CACB</item>
+        <item>#B6D6D6</item>
+        <item>#C7DFE1</item>
+        <item>#D1E6EA</item>
+        <item>#19966E</item>
+        <item>#1A9774</item>
+        <item>#24987C</item>
+        <item>#46A08C</item>
+        <item>#65AB9B</item>
+        <item>#8BBCB2</item>
+        <item>#A1C9C0</item>
+        <item>#B9D7D1</item>
+        <item>#CFE4E1</item>
+        <item>#DAEAEC</item>
+        <item>#1F9043</item>
+        <item>#209243</item>
+        <item>#249447</item>
+        <item>#3D9A63</item>
+        <item>#5DA579</item>
+        <item>#7DB38E</item>
+        <item>#9AC2A5</item>
+        <item>#BFD9CD</item>
+        <item>#C6DDCC</item>
+        <item>#D0E3D6</item>
+        <item>#519D3F</item>
+        <item>#5CA03E</item>
+        <item>#72A83B</item>
+        <item>#7FAF51</item>
+        <item>#94BA6F</item>
+        <item>#A4C486</item>
+        <item>#BCD3A4</item>
+        <item>#C9DCB8</item>
+        <item>#DBE8CC</item>
+        <item>#E6EED6</item>
+        <item>#7EAD39</item>
+        <item>#89B237</item>
+        <item>#94B73E</item>
+        <item>#A2BF62</item>
+        <item>#AFC87B</item>
+        <item>#BFD394</item>
+        <item>#CBDCAF</item>
+        <item>#D7E5C3</item>
+        <item>#E6EED6</item>
+        <item>#EFF4DF</item>
+        <item>#A7BF30</item>
+        <item>#ADC22E</item>
+        <item>#B4C648</item>
+        <item>#BBCC5B</item>
+        <item>#C5D276</item>
+        <item>#D2DB8F</item>
+        <item>#DEE5AA</item>
+        <item>#E5ECBE</item>
+        <item>#F3F4D0</item>
+        <item>#F7F7D7</item>
+        <item>#CACE2B</item>
+        <item>#CCD138</item>
+        <item>#D0D453</item>
+        <item>#D3D765</item>
+        <item>#DBDE83</item>
+        <item>#E1E499</item>
+        <item>#E7EBB5</item>
+        <item>#EDF1C9</item>
+        <item>#F7F7D7</item>
+        <item>#F8F8DF</item>
+        <item>#F1D330</item>
+        <item>#F1D43A</item>
+        <item>#F1D646</item>
+        <item>#F3D967</item>
+        <item>#F4DB79</item>
+        <item>#F3DC96</item>
+        <item>#F4E0B4</item>
+        <item>#F8EBC5</item>
+        <item>#FAF2D2</item>
+        <item>#F7F8DB</item>
+        <item>#DFA233</item>
+        <item>#E1A83F</item>
+        <item>#E4B14F</item>
+        <item>#E8BC68</item>
+        <item>#EAC47E</item>
+        <item>#EDCB91</item>
+        <item>#F1D7AC</item>
+        <item>#F3E0C1</item>
+        <item>#F7E9CF</item>
+        <item>#FAF2D4</item>
+        <item>#D48039</item>
+        <item>#D5853E</item>
+        <item>#D88F4E</item>
+        <item>#DEA16D</item>
+        <item>#E1AC80</item>
+        <item>#E7BC96</item>
+        <item>#ECCCB2</item>
+        <item>#F0D6C2</item>
+        <item>#F4E3D1</item>
+        <item>#F7EAD8</item>
+        <item>#CC653C</item>
+        <item>#CE6E43</item>
+        <item>#D17950</item>
+        <item>#D78F6F</item>
+        <item>#DB997D</item>
+        <item>#E3B4A0</item>
+        <item>#EAC7BA</item>
+        <item>#F0D8CD</item>
+        <item>#F4E4DA</item>
+        <item>#F7ECE1</item>
+        <item>#C2323E</item>
+        <item>#C33C47</item>
+        <item>#C54952</item>
+        <item>#C85B64</item>
+        <item>#CF7782</item>
+        <item>#D8949E</item>
+        <item>#E1B1B9</item>
+        <item>#E9C6CF</item>
+        <item>#EDD2D8</item>
+        <item>#F3E1E8</item>
+        <item>#BF3071</item>
+        <item>#C03978</item>
+        <item>#C44E83</item>
+        <item>#CA6593</item>
+        <item>#CE769E</item>
+        <item>#D692B2</item>
+        <item>#E2B4CA</item>
+        <item>#E9C8DB</item>
+        <item>#EED4E4</item>
+        <item>#F2DFEB</item>
+        <item>#C2448A</item>
+        <item>#C5528F</item>
+        <item>#C85E95</item>
+        <item>#CB6D9D</item>
+        <item>#D283AC</item>
+        <item>#DA9EBE</item>
+        <item>#DFADCA</item>
+        <item>#E9C9DD</item>
+        <item>#EFD7E6</item>
+        <item>#F2DFEB</item>
+        <item>#753A88</item>
+        <item>#7C448C</item>
+        <item>#875193</item>
+        <item>#9A6AA1</item>
+        <item>#B388B4</item>
+        <item>#C49FC3</item>
+        <item>#D5B8D3</item>
+        <item>#E4CEE2</item>
+        <item>#EEE0ED</item>
+        <item>#F5E9F1</item>
+        <item>#593F8A</item>
+        <item>#62438C</item>
+        <item>#725093</item>
+        <item>#8769A2</item>
+        <item>#9D81B1</item>
+        <item>#B89EC4</item>
+        <item>#CEB6D3</item>
+        <item>#E2D2E4</item>
+        <item>#F0E2EE</item>
+        <item>#F6EAF2</item>
+    </array>
+
+    <array name="temps">
+        <item>#FFFFFF</item>
+        <item>#FCF9F8</item>
+        <item>#F5E6DA</item>
+        <item>#F1DDC6</item>
+        <item>#F0D8BA</item>
+        <item>#EDD0B7</item>
+        <item>#E6C9B4</item>
+        <item>#DEC2B0</item>
+        <item>#A4C6CD</item>
+        <item>#AAD0DB</item>
+        <item>#C3DEEB</item>
+        <item>#D1E6F2</item>
+        <item>#DCECF6</item>
+        <item>#E8F3FA</item>
+        <item>#F1F7FC</item>
+    </array>
 </resources>

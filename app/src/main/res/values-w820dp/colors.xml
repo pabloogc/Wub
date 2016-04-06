@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">@color/white</color>
+    <color name="primary_color_dark">@color/gray9</color>
+    <color name="accent_color">@color/black</color>
+    <color name="dark_accent_color">#561961</color>
+    <color name="text_color_primary">@color/black</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_50">#7FFFFFFF</color>
+    <color name="white_00">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#7F000000</color>
+    <color name="gray3">#333333</color>
+    <color name="gray7">#777777</color>
+    <color name="gray9">#999999</color>
+    <color name="grayC">#CCCCCC</color>
+    <color name="intensity_slider_grey">#C5D3D6</color>
+    <color name="base_background">#eceff1</color>
+    <color name="lamp_off_color">#FF263238</color>
+    <color name="lamp_off_color_light">#FF4D7988</color>
+    <color name="dark_actionbar_background_color">#455a64</color>
+    <color name="ripple_color">#5a000000</color>
+
+    <color name="splash_color_bg">#561961</color>
+
+    <!-- Wizard -->
+
+    <color name="wizard_button_pressed">#96ffffff</color>
+    <color name="wizard_button_primary">#77ffffff</color>
+    <color name="wizard_button_primary_light">#33ffffff</color>
+
+    <color name="wizard_start_color">@color/bq_orange</color>
+    <color name="wizard_blink_color">@color/bq_red</color>
+    <color name="wizard_discover_color">@color/bq_pink</color>
+    <color name="wizard_master_color">@color/bq_dark_pink</color>
+    <color name="wizard_master_color_dialog">@color/bq_dark_pink_transparent</color>
+    <color name="wizard_connect_color">@color/bq_purple</color>
+    <color name="wizard_connect_color_dialog">@color/bq_purple_transparent</color>
+
+    <!-- BQ colors -->
+
+    <color name="bq_purple">#702076</color>
+    <color name="bq_dark_pink">#B00060</color>
+    <color name="bq_pink">#D60056</color>
+    <color name="bq_red">#EB0028</color>
+    <color name="bq_orange">#FF5000</color>
+
+    <color name="bq_purple_transparent">#DF702076</color>
+    <color name="bq_dark_pink_transparent">#DFB00060</color>
+    <color name="bq_pink_transparent">#DFD60056</color>
+    <color name="bq_red_transparent">#DFEB0028</color>
+    <color name="bq_orange_transparent">#DFFF5000</color>
+
+    <!-- Settings -->
+
+    <color name="settings_color_accent">#B00060</color>
+    <color name="settings_primary_color">#FF162D34</color>
+    <color name="settings_primary_color_dark">#FF0D2328</color>
+    <color name="settings_button_pressed">#80455a64</color>
+    <color name="settings_button_primary">#546E7A</color>
+    <color name="settings_text_icon_button_color">#B00060</color>
+    <color name="settings_tick_green">#6ea96e</color>
+
+    <!-- Lamp edition -->
+    <color name="lamp_list_add_lamp_item_background_color">#4E7784</color>
+    <color name="lamp_list_add_lamp_item_icons_color">@color/white</color>
+    <color name="lamp_list_add_lamp_item_text_color">@color/white</color>
+    <color name="lamp_edit_dialog_default_color">#000000</color>
+    <color name="lamp_edit_dialog_cancel_color">#FF0000</color>
+    <color name="lamp_edit_dialog_confirm_color">#00B5E6</color>
+    <color name="lamp_edit_unavailable_lamp_background_color">#CDD9DD</color>
+    <color name="lamp_edit_unavailable_lamp_icons_color">#4E7783</color>
+    <color name="lamp_edit_unavailable_lamp_text_color">#AAB8BD</color>
+</resources>
